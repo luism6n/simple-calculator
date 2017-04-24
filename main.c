@@ -15,7 +15,7 @@ float get_value(char id) {
 
 int main(int argc, char *argv[])
 {
-	symbol_table = calloc(23, sizeof(float));
+	symbol_table = calloc(26, sizeof(float));
 
 	printf(">> ");
 	while (yyparse() != 0);
